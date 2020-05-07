@@ -17,6 +17,7 @@ body {
 	padding: 0;
 	max-width: 100%;
 	overflow-x: hidden;
+	word-wrap: break-word;
 }
 
 body::-webkit-scrollbar {
@@ -33,11 +34,28 @@ body::-webkit-scrollbar-thumb {
 
 main {
   margin-left: 5rem;
-  padding: 1rem;
+	padding: 1rem 5rem;
 }
 
-.subtitle {
+main p {
+	font-size: 1.145rem;
+	line-height: 2;
+}
+
+main p a {
+	color: #1e1e24;
+}
+
+main p a:hover {
+	color: #3bebc2;
+}
+
+.subtitle-light {
 	color: var(--text-primary);
+}
+
+.subtitle-dark {
+	color: var(--bg-primary);
 }
 
 /*--- Navigation ---*/
@@ -134,43 +152,6 @@ main {
 
 .navbar:hover .logo i {
 	transform: rotate(-180deg);
-}
-
-
-/*--- Gallery ---*/
-
-.gallery {
-	text-align: center;
-	padding: 32px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.column {
-  flex: 25%;
-	max-width: 33%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-
-/*--- Badges ---*/
-
-.badges {
-	text-align: left;
-}
-
-.badges a {
-	background: var(--bg-secondary);
 }
 
 
