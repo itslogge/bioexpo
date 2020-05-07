@@ -14,7 +14,9 @@ body {
   color: black;
   background-color: white;
   margin: 0;
-  padding: 0;
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -43,7 +45,6 @@ main {
   position: fixed;
 	background-color: var(--bg-primary);
 	transition: width 200ms ease;
-
 }
 
 .navbar-nav {
@@ -169,7 +170,7 @@ main {
 }
 
 .badges a {
-	background: var(--bg-tertiary);
+	background: var(--bg-secondary);
 }
 
 
