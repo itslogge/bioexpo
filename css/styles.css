@@ -6,6 +6,7 @@
   --text-secondary: #ececec;
   --bg-primary: #23232e;
 	--bg-secondary: #141418;
+	--bg-tertiary: #1e2b38;
 	--transition-speed: 600ms;
 }
 
@@ -165,6 +166,10 @@ main {
 
 .badges {
 	text-align: left;
+}
+
+.badges a {
+	background: var(--bg-tertiary);
 }
 
 
